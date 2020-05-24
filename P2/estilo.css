@@ -1,0 +1,58 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.contorno {
+  width: 267px;
+    height: 20px;
+    background: #bfd3f3;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.calculadora {
+  background-color: #bfd3f3;
+  width: 267px;
+  height: 458px;
+  margin-top: 0px;
+  margin-left: 100px;
+}
+.pantalla {
+  width: 240px;
+  height: 80px;
+  background: #ffffff;
+  margin-top: 0px;
+  margin-left: 13px;
+  margin-right: 2px;
+  overflow: auto;
+  font-size: 30px;
+
+}
+
+
+button {
+  margin: 6px;
+  padding: 20px;
+
+}
+#clear{
+  color: black;
+  background-color: orange;
+}
+#resta{
+  background-color: #35C5FA;
+}
+#suma{
+  background-color: #35C5FA;
+}
+#division{
+  background-color: #35C5FA;
+}
+#multiplicacion{
+  background-color: #35C5FA;
+}
+#igual{
+ background-color: #D68FFF;
+
+}
