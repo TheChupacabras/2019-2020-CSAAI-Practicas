@@ -1,0 +1,42 @@
+body {
+  background-color: lightblue;
+}
+#viajes{
+  float: right;
+  text-align: center;
+  font-size: 30px;
+  width: 30%;
+  border-radius: 25px;
+
+  min-height: 45vh;
+}
+#marco{
+
+  float: right;
+  text-align: center;
+  font-size: 30px;
+  width: 30%;
+  border-radius: 25px;
+  background-color: #5589F1;
+  min-height: 45vh;
+}
+#Estudios{
+
+  font-size: 40px;
+  margin-left: auto;
+}
+
+h4{
+  margin-left: 200px;
+
+}
+#marco1{
+
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  width: 30%;
+  border-radius: 25px;
+  background-color: #5589F1;
+  min-height: 45vh;
+}
