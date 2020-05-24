@@ -78,9 +78,11 @@ img.onload = function () {
       filtrar()
     }
     botonc.onclick = () => {
+
       filtrar()
     }
     boton.onclick = () => {
+
       range_value.innerHTML = deslizador.value;
       range_valuev.innerHTML = deslizadorv.value;
       range_valuea.innerHTML = deslizadora.value;
@@ -110,17 +112,27 @@ img.onload = function () {
     ctx.putImageData(imgData, 0, 0);
 
   }
+
   girary.onclick = () => {
-  ctx.translate(0,img.height);
-  ctx.scale(1,-1);
-  ctx.drawImage(img, 0, 0);
+
+
+
+    ctx.translate(0,img.height);
+    ctx.scale(1,-1);
+    ctx.drawImage(img, 0, 0);
+    filtrar()
+
 }
 
+
 girarx.onclick = () => {
+
 ctx.translate(img.width,0);
 ctx.scale(-1,1);
 ctx.drawImage(img, 0, 0);
-}
+filtrar()
 
+
+}
 
 console.log("Fin...");
