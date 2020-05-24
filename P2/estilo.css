@@ -4,16 +4,17 @@
 }
 
 .contorno {
-  width: 267px;
-    height: 20px;
+  width: 270px;
+    height: 25px;
     background: #bfd3f3;
     margin-left: 100px;
     margin-top: 50px;
+
 }
 
 .calculadora {
   background-color: #bfd3f3;
-  width: 267px;
+  width: 270px;
   height: 458px;
   margin-top: 0px;
   margin-left: 100px;
@@ -32,27 +33,36 @@
 
 
 button {
-  margin: 6px;
-  padding: 10px;
-
+  margin-top: 10%;
+  margin-left: 1%;
+  height: 50px;
+  width: 60px;
+  border: 1px insed #000000;
 }
 #clear{
+  margin-top: -5%;
   color: black;
-  background-color: black;
+  background-color: orange;
+
 }
 #resta{
+
   background-color: #35C5FA;
 }
 #suma{
+
   background-color: #35C5FA;
 }
 #division{
+
   background-color: #35C5FA;
 }
 #multiplicacion{
+
   background-color: #35C5FA;
 }
 #igual{
+
  background-color: #D68FFF;
 
 }
