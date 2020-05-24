@@ -52,7 +52,7 @@ img.onload = function () {
   umbral = deslizador.value
   umbrala = deslizadora.value
   umbralv = deslizadorv.value
-  //-- Filtrar la imagen según el nuevo umbral
+  //-- Filtrar la imagen según los nuevos umbrales
   for (let i = 0; i < data.length; i+=4) {
     if (data[i] > umbral)
       data[i] = umbral;
@@ -96,7 +96,7 @@ img.onload = function () {
 
       //-- Obtener el umbral de desliadores
 
-      //-- Filtrar la imagen según el nuevo umbral
+      //-- Filtrar la imagen según los nuevos umbrales
       for (var i = 0; i < data.length; i+=4) {
       R = data[i];
       G = data[i+1];
@@ -110,6 +110,17 @@ img.onload = function () {
     ctx.putImageData(imgData, 0, 0);
 
   }
+  girary.onclick = () => {
+  ctx.translate(0,img.height);
+  ctx.scale(1,-1);
+  ctx.drawImage(img, 0, 0);
+}
+
+girarx.onclick = () => {
+ctx.translate(img.width,0);
+ctx.scale(-1,1);
+ctx.drawImage(img, 0, 0);
+}
 
 
 console.log("Fin...");
