@@ -1,0 +1,14 @@
+/* Fondo de la página */
+body {
+    background-color: white;
+    background-image: url(pantalla5.jpg);
+    background-repeat: no-repeat;
+
+
+}
+
+/* Estilo para el canvas: Negro */
+#canvas {
+  background-color: black;
+ margin-left: 200px;
+}
